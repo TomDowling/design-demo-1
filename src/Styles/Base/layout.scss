@@ -6,11 +6,23 @@
 
 
 
+body {
+    color: $color-body-text;
+
+    background-color: $color-body-background;
+}
+
+
+
 /*
 *   =========================
 *   Sections (<section />)
 *   =========================
 */
 section {
-    padding: 100px 2rem;
+    padding: 1rem;
+
+    @mixin bp($bp-m) {
+        padding: 100px 2rem;
+    }
 }

@@ -16,8 +16,8 @@
 @import "Base/variables";
 @import "Base/mixins";
 
-@import "Base/helpers.scss";
-@import "Base/layout.scss";
+@import "Base/helpers";
+@import "Base/layout";
 @import "Base/typography";
 
 
@@ -27,3 +27,4 @@
 *   @import "Components/";
 *   =========================
 */
+@import "Components/Layout/header";
