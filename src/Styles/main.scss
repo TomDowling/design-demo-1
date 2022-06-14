@@ -21,6 +21,7 @@
 @import "Base/typography";
 
 
+
 /*
 *   =========================
 *   Components
@@ -28,3 +29,17 @@
 *   =========================
 */
 @import "Components/Layout/header";
+
+@import "Components/Section/intro-section";
+
+
+
+
+
+
+
+
+
+body {
+    min-height: 200vh;
+}
