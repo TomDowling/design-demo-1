@@ -61,6 +61,8 @@ header .container {
 
         background-image: url(../../../../public/assets/avatar.png);
 
+        cursor: pointer;
+
         &::after {
             content: "";
 
@@ -90,5 +92,66 @@ header .dropdown-menu {
         display: flex;
 
         padding: $spacing;
+    }
+}
+
+header .main-nav {
+    display: none;
+}
+
+
+
+/*
+*   =========================
+*   Desktop Menu
+*   =========================
+*/
+@include for-desktop-up {
+    header {
+        padding: 40px;
+        margin: 32px;
+
+        background-color: rgba(#09251E, 0.3);
+        border-radius: 10rem;
+    
+        .burger-menu {
+            display: none !important;
+        }
+        
+        .main-nav {
+            display: flex;
+
+            padding: 0;
+            margin: 0;
+
+            list-style-type: none;
+
+            li a {
+                position: relative;
+
+                padding: calc($spacing / 2);
+
+                color: #F5FBF2;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 22px;
+                letter-spacing: 0.02rem;
+
+                &:hover::after {
+                    content: "";
+                    
+                    position: absolute;
+
+                    left: calc($spacing / 2);
+                    bottom: 0;
+
+                    width: 50px;
+                    height: 4px;
+
+                    background-color: $color-primary;
+                    border-radius: 1rem;
+                }
+            }
+        }
     }
 }

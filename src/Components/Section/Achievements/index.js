@@ -2,7 +2,7 @@ export function AchievementsSection() {
     return (
         <section id="achievements-section">
             <div className="section-title">Achievements</div>
-            <div className="section-body">
+            <div className="container section-body">
                 <h3>Full Decentralised and Currency Security</h3>
                 <div className="stats">
                     <div className="item">

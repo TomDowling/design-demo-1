@@ -73,3 +73,47 @@
 
     }
 }
+
+
+
+/*
+*   =========================
+*   Desktop Menu
+*   =========================
+*/
+@include for-desktop-up {
+    #achievements-section {
+        .section-title {
+            font-size: 24px;
+            line-height: 150%;
+        }
+
+        h3 {
+            font-size: 36px;
+            line-height: 150%;
+        }
+
+        .stats {
+            margin: 0 auto;
+
+            max-width: 800px;
+
+            .item {
+                .stat {
+                    font-size: 36px;
+                }
+
+                .label {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .world-map {
+            height: 40vw;
+
+            background-size: 80%;
+            background-attachment: fixed;
+        }
+    }
+}
