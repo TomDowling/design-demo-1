@@ -24,8 +24,16 @@ export function Header() {
             </div>
 
             <ul className={`dropdown-menu ${showDropdown ? "" : "hide"}`}>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
+                <li onClick={toggleDropdown}><a href="#about-section">About Us</a></li>
+                <li onClick={toggleDropdown}><a href="#achievements-section">Achievements</a></li>
+                <li onClick={toggleDropdown}>
+                    <a
+                        href="https://www.figma.com/file/HnnOJEiSTsvf1n4wPIZ1AU/Blockchain-Technology-And-Currency-Exchange-Landing-Page-UI-UX-Design-(Community)?node-id=1%3A2"
+                        target="_blank"
+                    >
+                        Figma
+                    </a>
+                </li>
             </ul>
         </header>
     )

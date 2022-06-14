@@ -28,7 +28,11 @@ $color-body-text: #80AB9E;
 *   =========================
 */
 $spacing: 16px;
+
 $spacing-sm: calc($spacing / 2);
+
+$spacing-lg: calc($spacing * 1.5);
+$spacing-x2: calc($spacing * 2);
 
 
 

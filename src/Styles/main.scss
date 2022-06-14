@@ -28,8 +28,12 @@
 *   @import "Components/";
 *   =========================
 */
+@import "Components/Inputs/buttons";
+
 @import "Components/Layout/header";
 
+@import "Components/Section/about-section";
+@import "Components/Section/achievements-section";
 @import "Components/Section/intro-section";
 
 
@@ -41,5 +45,5 @@
 
 
 body {
-    min-height: 200vh;
+    min-height: 300vh;
 }

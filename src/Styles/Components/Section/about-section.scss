@@ -1,0 +1,54 @@
+/*
+*   ==================================================
+*   Section / About Section Stylesheet
+*   #about-section
+*   ==================================================
+*/
+
+
+
+/*
+*   =========================
+*   Container
+*   =========================
+*/
+#about-section {
+    .section-title {
+        margin-top: 22px;
+
+        color: #F5FBF2;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: 0.016rem;
+        text-align: center;
+    }
+
+    .section-body {
+        margin-top: $spacing;
+        
+        color: #80AB9E;
+        font-size: 15px;
+        line-height: 150%;
+
+        p {
+            margin-bottom: 1.75rem;
+
+            & + p {
+                margin-bottom: 0;
+            }
+        }
+
+        .btn-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 100%;
+            
+            .btn {
+                margin-top: 1rem;
+            }
+        }
+    }
+}

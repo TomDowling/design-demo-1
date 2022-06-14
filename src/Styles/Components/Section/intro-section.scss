@@ -14,35 +14,50 @@
 */
 #intro-section {
     padding-top: 2rem;
-
-    .section-title {
-        font-size: 1.5rem;
-        font-weight: 400;
-        line-height: 150%;
-        text-align: center;
-        letter-spacing: -1px;
-    }
-
+    
     .section-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+        h3 {
+            margin: 0 auto;
+            max-width: 250px;
+    
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 29px;
+            text-align: center;
+            letter-spacing: 0.01rem;
+        }
+
         h1 {
             margin: 0;
-            margin-top: 1.25rem;
+            margin-top: 1rem;
 
             color: $color-white;
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             font-weight: 700;
-            line-height: 166%;
+            line-height: 150%;
             text-align: center;
+            letter-spacing: 0.016rem;
         }
 
         .city-ping {
-            width: 100vw;
-            height: 62vw;
+            margin-top: $spacing-lg;
+            margin-left: -$spacing;
 
-            background-color: red;
+            width: calc(100% + 48px);
+            height: 60vw;
+
+            background-image: url(../../../../public/assets/city-ping.png);
             background-position: center;
             background-size: contain;
             background-repeat: no-repeat;
+        }
+
+        .btn {
+            margin-top: $spacing-x2;
         }
     }
 }

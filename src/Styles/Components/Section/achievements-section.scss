@@ -1,0 +1,75 @@
+/*
+*   ==================================================
+*   Section / Achievements Section Stylesheet
+*   #achievements-section
+*   ==================================================
+*/
+
+
+
+/*
+*   =========================
+*   Container
+*   =========================
+*/
+#achievements-section {
+    padding: $spacing;
+    margin-top: 0.7rem;
+
+    text-align: center;
+
+    .section-title {
+        margin-top: 1rem;
+
+        line-height: 150%;
+        letter-spacing: 0.016rem;
+    }
+
+    h3 {
+        margin-top: 1rem;
+
+        color: #F5FBF2;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.016rem;
+    }
+
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        margin: 1.25rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+
+        .item {
+            text-align: center;
+
+            .stat {
+                color: $color-primary;
+                font-weight: 700;
+                line-height: 150%;
+            }
+
+            .label {
+                color: #9E9E9E;
+                font-size: 12px;
+                line-height: 150%;
+            }
+        }
+    }
+
+    .world-map {
+        margin-left: -$spacing;
+
+        width: calc(100% + 30px);
+        height: 60vw;
+        
+        background-image: url(../../../../public/assets/world.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+}
