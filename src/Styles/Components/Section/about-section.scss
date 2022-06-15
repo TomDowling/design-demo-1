@@ -62,6 +62,13 @@
 */
 @include for-desktop-up {
     #about-section {
+        .section-title {
+            font-size: 36px;
+            line-height: 150%;
+        }
 
+        .btn-container {
+            margin-top: 2rem;
+        }
     }
 }

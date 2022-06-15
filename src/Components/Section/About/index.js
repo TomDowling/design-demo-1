@@ -4,7 +4,7 @@ export function AboutSection() {
             <div className="section-title">
                 About Us
             </div>
-            <div className="section-body">
+            <div className="section-body container">
                 <p>
                     A Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown
                 </p>
